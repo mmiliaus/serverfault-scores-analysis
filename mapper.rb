@@ -3,6 +3,6 @@ STDIN.each_line do |line|
 
   m = line.match /Score="(\d+)"/
   if m
-    puts "#{m[1]}\t1"
+    puts "LongValueSum:#{m[1]}\t1"
   end
 end
